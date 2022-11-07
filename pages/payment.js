@@ -47,8 +47,8 @@ export default function PaymentScreen() {
     <Header/>
     <Footer/>
    
-    <div className="mt-[5rem] bg-blue-400 h-screen flex justify-between px-10 ">
-      <div className="">
+    <div className="mt-[5rem] bg-blue-400 h-[90rem] px-10 z-30 flex justify-center">
+      <div className="flex flex-col">
   
       <form className="mx-auto max-w-screen-md" onSubmit={submitHandler}>
         <h1 className="mb-4 text-xl text-center">Payment Method</h1>
@@ -79,8 +79,8 @@ export default function PaymentScreen() {
           
         </div>
       </form>
-      </div>
-      <div className=" relative top-[5rem] w-[40%]">
+      
+      <div className=" relative top-[5rem] w-[40%] z-20">
         <div className="w-full">
 {/*       
         <PayPalButtons  style={{ layout: "vertical" }}
@@ -108,6 +108,7 @@ export default function PaymentScreen() {
         </PayPalScriptProvider>
         </div>
      
+      </div>
       </div>
       <Toaster
   position="top-center"
