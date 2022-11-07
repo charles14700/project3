@@ -3,8 +3,9 @@ import React, {  useEffect, useState } from "react";
 import useStore2 from "../store2";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { PayPalButtons, usePayPalScriptReducer,   PayPalScriptProvider} from "@paypal/react-paypal-js";import toast, { Toaster } from "react-hot-toast";
-;
+import { PayPalButtons, PayPalScriptProvider} from "@paypal/react-paypal-js";
+import toast, { Toaster } from "react-hot-toast";
+
 
 export default function PaymentScreen() {
   const Amount = useStore2(state=> state.address)
