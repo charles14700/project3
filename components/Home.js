@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Shipping from "./shipping";
+import Shipping from "./Shipping";
 const Home = () => {
   return (
     <div className="h-screen w-full bg-blue-500">
