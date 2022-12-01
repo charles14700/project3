@@ -87,7 +87,7 @@ export default function PaymentScreen() {
            createOrder={createOrder}
            onApprove={onApprove}/>
                */}
-             <PayPalScriptProvider options={{ "client-id": "Afo0TTUCu84g8taFlND2m6e06RkgVbhvKPZWUDys_MkGYZzh6nvh_xZKu0yMyuLCDZnfaFIh3rfmN7Zo" }}>
+             <PayPalScriptProvider options={{ "client-id": "AVEbJol5gNajdPTpCbdv165Jb14mdQS_YaE_6Edv825mLAUgTbhhevTxp1WN6gNvAhCndEwaCxAN5mVF" }}>
             <PayPalButtons createOrder={(data, actions) => {
                     return actions.order.create({
                         purchase_units: [
